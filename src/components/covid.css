@@ -1,0 +1,121 @@
+.page{
+    padding-top: 50px;
+    padding-bottom: 27px;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+.custome-card{
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 400px;
+    height: 200px;
+}
+
+.drop_down{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(46, 83, 248);
+    color: white;
+    /* border-radius: 20%;     */
+    border-color: white;
+    border-width: 3px;
+    margin-top: 15px;
+    
+}
+
+.custom_row{
+    margin-top: 50px;
+    /* margin-bottom: 100px; */
+    align-items: center;
+}
+.heading2{
+    margin-top: 10px;
+}
+.live{
+    font-size: 10px;
+    animation: highlow 0.8s ease-in-out infinite alternate;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes highlow {
+    from {
+      transform: scale(1);
+    }
+    
+    to {
+      transform: scale(2);
+    }
+  }
+
+.on_hover:hover{
+    transform:  scale(1.1);
+    transition: transform 100ms ease-in-out;
+}
+.loc{
+    background-color: rgb(46, 83, 248);
+}
+
+
+.recovered{
+    background-color: tomato;
+}
+
+.confirmed{
+    background-color: teal;
+}
+
+
+.deaths{
+     background-color: brown;
+}
+
+
+.active{
+    background-color: rgb(33, 201, 0);
+}
+
+
+.update{
+    background-color: rgb(253, 68, 0);
+}
+.headings{
+    /* margin-left: 30%;
+    margin-right: auto; */
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.col-cos{
+    text-align: center;
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+span{
+    font-size: 15px;
+}
+.number{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 52px;
+    margin-top: 20px;
+
+}
