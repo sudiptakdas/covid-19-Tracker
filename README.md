@@ -1,7 +1,5 @@
 # Deployed on Heroku
 
-Project Link :- https://covid19-tracker-tejas74.herokuapp.com/ \
-Api Used :- https://api.covid19india.org/data.json
 
 ![image](https://user-images.githubusercontent.com/55979765/127038517-0670f298-c1d8-4f49-9d8e-285699dda006.png)
 
